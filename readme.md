@@ -12,6 +12,7 @@
 * Install Xcode 12.5 from Mac App Store
 * Review differences between paid and non paid accounts https://help.apple.com/developer-account/#/dev21218dfd6
 * Hello World App - (Pull request with @altyus assigned)
+* [SwiftLang Playground](Playgrounds/SwiftLangExercise1.playground)
 
 ## Class 1
 
