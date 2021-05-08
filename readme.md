@@ -18,16 +18,36 @@
 
 #### Reading
 
+* [Xcode Essentials](https://developer.apple.com/library/archive/documentation/ToolsLanguages/Conceptual/Xcode_Overview/)
+* 
+
 #### Topics
 
 * Xcode
-
+  * LLDB / Debugging
+  * Unit testing
+  * Simulator / Building App
+  * Interface Builder
+  * Code Signing / Capabilities
+  * Build Settings (Device Targets / iOS Deployment Target)
+  * Breakpoints
 * Swift
-
-* Interface Builder
-
+  * Variables and Constants
+  * Data Types (String, Int, Float & Double, Bool)
+  * Optionals
+  * Collection Types (Array, Set, Dictionary, ArraySlice)
+  * Functions and closures
+  * Classes and Structs
+  * Protocols
+  * Initialization / Instantiation, Lazy Instantiation
+  * Enumerations
+  * Conditionals (if, else if, switch, where clause)
+  * Loops (for in, forEach, while / do while, range, enumerated sequence)
+  * Higher-order functions (map, filter and reduce)
 * Foundation
-
+  * Dates and Times (Date, TimeInterval, DateComponents, Calendar, DateFormatter, RelativeDateTimeFormatter)
+  * Units and Measurement (Unit, Mesasurement, UnitConverter)
+  * Files and Data Persistence (UserDefaults, Keychain, FileManager, CoreData)
 
 #### Exercises
 
