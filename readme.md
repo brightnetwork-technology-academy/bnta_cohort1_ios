@@ -62,19 +62,26 @@
 
 ## Class 2
 
-MVC
+#### Reading
 
-UIKit
+* [UIStackView Docs](https://developer.apple.com/documentation/uikit/uistackview) (required)
+* [UINavigationController](https://developer.apple.com/documentation/uikit/uinavigationcontroller) (overview required)
+* [Table Views](https://developer.apple.com/documentation/uikit/views_and_controls/table_views) (required)
+* [UICollectionView Docs](https://developer.apple.com/documentation/uikit/uicollectionview) (overview required)
+* [The Autolayout Cheat Sheet](https://www.hackingwithswift.com/articles/140/the-auto-layout-cheat-sheet) (optional)
 
-Interface Builder
+#### Topics
 
-UIStackView
+* MVC
 
-UITableView
-
-UICollectionView
-
-Autolayout
+* UIKit
+  * UIViewController
+  * UINavigationController
+  * Interface Builder
+  * UIStackView
+  * UITableView
+  * UICollectionView
+  * Autolayout
 
 
 
