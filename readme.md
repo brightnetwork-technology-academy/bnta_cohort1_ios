@@ -10,16 +10,18 @@
 #### Exercises
 
 * Install Xcode 12.5 from Mac App Store
+
 * Review differences between paid and non paid accounts https://help.apple.com/developer-account/#/dev21218dfd6
+
 * Hello World App - (Pull request with @altyus assigned)
-* [SwiftLang Playground](Playgrounds/SwiftLangExercise1.playground)
+
+  
 
 ## Class 1
 
 #### Reading
 
 * [Xcode Essentials](https://developer.apple.com/library/archive/documentation/ToolsLanguages/Conceptual/Xcode_Overview/)
-* 
 
 #### Topics
 
@@ -27,7 +29,6 @@
   * LLDB / Debugging
   * Unit testing
   * Simulator / Building App
-  * Interface Builder
   * Code Signing / Capabilities
   * Build Settings (Device Targets / iOS Deployment Target)
   * Breakpoints
@@ -51,11 +52,16 @@
 
 #### Exercises
 
+* [SwiftLang Playground](Playgrounds/SwiftLangExercise1.playground)
+* [Functional Swift Playground](Playgrounds/FunctionalSwift.playground)
+
 ## Class 2
 
 MVC
 
 UIKit
+
+Interface Builder
 
 UIStackView
 
@@ -64,6 +70,14 @@ UITableView
 UICollectionView
 
 Autolayout
+
+
+
+#### Exercises
+
+[Ray Wenderlich Storyboards Tutorial](https://www.raywenderlich.com/5055364-ios-storyboards-getting-started)
+
+
 
 ## Class 3
 
