@@ -13,7 +13,7 @@
 
 * Review differences between paid and non paid accounts https://help.apple.com/developer-account/#/dev21218dfd6
 
-* Hello World App - (Pull request with @altyus assigned)
+* Hello World App - (Pull request with @altyus assigned) Feel free to follow an online tutorial like this: https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71 or try doing it based on docs / intuition! 
 
   
 
@@ -21,7 +21,12 @@
 
 #### Reading
 
-* [Xcode Essentials](https://developer.apple.com/library/archive/documentation/ToolsLanguages/Conceptual/Xcode_Overview/)
+* [Xcode Essentials](https://developer.apple.com/library/archive/documentation/ToolsLanguages/Conceptual/Xcode_Overview/) (required)
+* [Swift Collection Types](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html) (required)
+* [Functions](https://docs.swift.org/swift-book/LanguageGuide/Functions.html) (required)
+* [Structures and Classes](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html) (required)
+* [Control Flow](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html) (required)
+* [Using the debugger](https://developer.apple.com/library/archive/documentation/ToolsLanguages/Conceptual/Xcode_Overview/UsingtheDebugger.html) (optional)
 
 #### Topics
 
