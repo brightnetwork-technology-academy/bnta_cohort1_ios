@@ -11,7 +11,7 @@ import UIKit
 
 
 /*:
- 3. `numberOfPets` and `add(_:)` aren't terribly useful as free variables / functions.  Let's create a class `Student` which has a [private](https://docs.swift.org/swift-book/LanguageGuide/AccessControl.html) property `numberOfPets`, and an [internal](https://docs.swift.org/swift-book/LanguageGuide/AccessControl.html) function `add(_:)` to increment `numberOfPets`
+ 3. `numberOfPets` and `add(_:)` aren't terribly use ful as free variables / functions.  Let's create a class `Student` which has a [private](https://docs.swift.org/swift-book/LanguageGuide/AccessControl.html) property `numberOfPets`, and an [internal](https://docs.swift.org/swift-book/LanguageGuide/AccessControl.html) function `add(_:)` to increment `numberOfPets`
  */
 
 
