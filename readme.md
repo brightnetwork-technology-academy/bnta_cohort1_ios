@@ -63,7 +63,8 @@
 #### Exercises
 
 1. [SwiftLang Playground](Playgrounds/SwiftLangExercise1.playground)
-2. [Functional Swift Playground](Playgrounds/FunctionalSwift.playground)
+2. [Collections Playground](Playgrounds/Collections.playground)
+3. [Functional Swift Playground](Playgrounds/FunctionalSwift.playground)
 
 ## Class 2
 
