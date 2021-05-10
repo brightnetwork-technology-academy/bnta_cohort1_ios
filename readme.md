@@ -2,25 +2,25 @@
 
 #### Reading
 
-* [Free Apple Developer Account vs Paid Account](https://help.apple.com/developer-account/#/dev21218dfd6) 
 * [A Swift Tour](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html) (required)
 * [Swift Language Guide, The Basics](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html) (required)
 * [Getting Started with Xcode WWDC 2019](https://developer.apple.com/videos/play/wwdc2019/404/) (required, can skip "Working with Packages and Frameworks" & "Testing and Distribution" sections)
 * [Swift Language Guide, All Sections](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html) (optional - read as much as you have time for!)
+* [Free Apple Developer Account vs Paid Account](https://help.apple.com/developer-account/#/dev21218dfd6) (optional)
 
 #### Exercises
 
-* [Install Xcode 12.5 from Mac App Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
+1. [Install Xcode 12.5 from Mac App Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
 
-* [Create a free Apple Developer Account](https://learnappmaking.com/how-to-create-a-free-apple-developer-account/)
+2. [Create a free Apple Developer Account](https://learnappmaking.com/how-to-create-a-free-apple-developer-account/)
 
-* In classic fashion, we'll create a "Hello World" App.  This app will simply place a UILabel in the center of the screen with the text "Hello World".  Feel free to follow an online tutorial like this: https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71 or try doing it based on docs / intuition! 
+3. In classic fashion, we'll create a "Hello World" App.  This app will simply place a UILabel in the center of the screen with the text "Hello World".  Feel free to follow an online tutorial like this: https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71 or try doing it based on docs / intuition! 
 
-  * Create a new folder under the [Students Directory](/Students) with your `first_last` name.  ex. `al_tyus`.  This is where you'll add all of your course content!
-  * Add the entire project folder that Xcode generates to your folder.  
-  *  Open a pull request and tag/assign me (@altyus).
-  
-  
+* Create a new folder under the [Students Directory](/Students) with your `first_last` name.  ex. `al_tyus`.  This is where you'll add all of your course content!
+* Add the entire project folder that Xcode generates to your folder.  
+*  Open a pull request and tag/assign me (@altyus).
+
+4. Congratulations! You've written your first iOS App.  If you've got some time to spare, go deeper in the prework reading, start on the class 1 reading, or fire up a [swift playground](https://www.hackingwithswift.com/read/0/1/how-to-install-xcode-and-create-a-playground) or [REPL](https://developer.apple.com/swift/blog/?id=18) and play around!
 
 ## Class 1
 
@@ -62,8 +62,8 @@
 
 #### Exercises
 
-* [SwiftLang Playground](Playgrounds/SwiftLangExercise1.playground)
-* [Functional Swift Playground](Playgrounds/FunctionalSwift.playground)
+1. [SwiftLang Playground](Playgrounds/SwiftLangExercise1.playground)
+2. [Functional Swift Playground](Playgrounds/FunctionalSwift.playground)
 
 ## Class 2
 
@@ -88,13 +88,9 @@
   * UICollectionView
   * Autolayout
 
-
-
 #### Exercises
 
-[Ray Wenderlich Storyboards Tutorial](https://www.raywenderlich.com/5055364-ios-storyboards-getting-started)
-
-
+1. [Ray Wenderlich Storyboards Tutorial](https://www.raywenderlich.com/5055364-ios-storyboards-getting-started)
 
 ## Class 3
 
