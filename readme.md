@@ -2,6 +2,7 @@
 
 #### Reading
 
+* [Free Apple Developer Account vs Paid Account](https://help.apple.com/developer-account/#/dev21218dfd6) 
 * [A Swift Tour](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html) (required)
 * [Swift Language Guide, The Basics](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html) (required)
 * [Getting Started with Xcode WWDC 2019](https://developer.apple.com/videos/play/wwdc2019/404/) (required, can skip "Working with Packages and Frameworks" & "Testing and Distribution" sections)
@@ -9,12 +10,16 @@
 
 #### Exercises
 
-* Install Xcode 12.5 from Mac App Store
+* [Install Xcode 12.5 from Mac App Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
 
-* Review differences between paid and non paid accounts https://help.apple.com/developer-account/#/dev21218dfd6
+* [Create a free Apple Developer Account](https://learnappmaking.com/how-to-create-a-free-apple-developer-account/)
 
-* Hello World App - (Pull request with @altyus assigned) Feel free to follow an online tutorial like this: https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71 or try doing it based on docs / intuition! 
+* In classic fashion, we'll create a "Hello World" App.  This app will simply place a UILabel in the center of the screen with the text "Hello World".  Feel free to follow an online tutorial like this: https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71 or try doing it based on docs / intuition! 
 
+  * Create a new folder under the [Students Directory](/Students) with your `first_last` name.  ex. `al_tyus`.  This is where you'll add all of your course content!
+  * Add the entire project folder that Xcode generates to your folder.  
+  *  Open a pull request and tag/assign me (@altyus).
+  
   
 
 ## Class 1
