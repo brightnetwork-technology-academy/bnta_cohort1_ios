@@ -55,10 +55,6 @@
   * Conditionals (if, else if, switch, where clause)
   * Loops (for in, forEach, while / do while, range, enumerated sequence)
   * Higher-order functions (map, filter and reduce)
-* Foundation
-  * Dates and Times (Date, TimeInterval, DateComponents, Calendar, DateFormatter, RelativeDateTimeFormatter)
-  * Units and Measurement (Unit, Mesasurement, UnitConverter)
-  * Files and Data Persistence (UserDefaults, Keychain, FileManager, CoreData)
 
 #### Exercises
 
@@ -88,6 +84,12 @@
   * UITableView
   * UICollectionView
   * Autolayout
+  
+  Foundation
+  
+  * Dates and Times (Date, TimeInterval, DateComponents, Calendar, DateFormatter, RelativeDateTimeFormatter)
+  * Units and Measurement (Unit, Mesasurement, UnitConverter)
+  * Files and Data Persistence (UserDefaults, Keychain, FileManager, CoreData)
 
 #### Exercises
 
