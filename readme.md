@@ -92,7 +92,7 @@
 
 1. [Ray Wenderlich Storyboards Tutorial](https://www.raywenderlich.com/5055364-ios-storyboards-getting-started)
 2. Recreate [this view](https://docs-assets.developer.apple.com/published/81df924749/ab74c89e-7d7e-46c0-a848-dee90fe046d2.png) using `UITableViewController` and `UITableViewCell` 
-3. Create an app that uses a `UINavigationController` to allow a simple root `UIViewController` to segue to three different view controllers.  The root ViewController should have a `UIButton` for each segue and the three different view controllers should simply have 3 different background colors. Each of the destination view controllers should be able to return to the root view controller using a back button. 
+3. Create an app that uses a `UINavigationController` to allow a simple root `UIViewController` to segue to three different view controllers.  The root ViewController should have a `UIButton` for each segue and the three different view controllers should simply have 3 different background colors.  Feel free to use a `UIStackView` to layout the three buttons. Each of the destination view controllers should be able to return to the root view controller using a back button. 
 4. Create a single screen App that uses UserDefaults to save the number of times that the app has been opened.  Display the number of app opens on a label that uses autolayout to center itself on the screen. 
 
 ## Class 3
