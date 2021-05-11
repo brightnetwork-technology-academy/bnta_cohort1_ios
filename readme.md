@@ -75,7 +75,10 @@
 #### Topics
 
 * MVC
-
+* Foundation
+  * Dates and Times (Date, TimeInterval, DateComponents, Calendar, DateFormatter, RelativeDateTimeFormatter)
+  * Units and Measurement (Unit, Mesasurement, UnitConverter)
+  * Files and Data Persistence (UserDefaults, Keychain, FileManager, CoreData)
 * UIKit
   * UIViewController
   * UINavigationController
@@ -84,39 +87,43 @@
   * UITableView
   * UICollectionView
   * Autolayout
-  
-  Foundation
-  
-  * Dates and Times (Date, TimeInterval, DateComponents, Calendar, DateFormatter, RelativeDateTimeFormatter)
-  * Units and Measurement (Unit, Mesasurement, UnitConverter)
-  * Files and Data Persistence (UserDefaults, Keychain, FileManager, CoreData)
 
 #### Exercises
 
 1. [Ray Wenderlich Storyboards Tutorial](https://www.raywenderlich.com/5055364-ios-storyboards-getting-started)
+2. Recreate [this view](https://docs-assets.developer.apple.com/published/81df924749/ab74c89e-7d7e-46c0-a848-dee90fe046d2.png) using `UITableViewController` and `UITableViewCell` 
+3. Create an app that uses a `UINavigationController` to allow a simple root `UIViewController` to segue to three different view controllers.  The root ViewController should have a `UIButton` for each segue and the three different view controllers should simply have 3 different background colors. Each of the destination view controllers should be able to return to the root view controller using a back button. 
+4. Create a single screen App that uses UserDefaults to save the number of times that the app has been opened.  Display the number of app opens on a label that uses autolayout to center itself on the screen. 
 
 ## Class 3
 
-Swift Package Manager / Cocoapods
+#### Reading
 
-GestureRecognizers
+#### Topics
 
-ARC
+* Swift Package Manager / Cocoapods
 
-Concurrency
+* GestureRecognizers
+
+* ARC
+
+* Concurrency
+
+#### Exercises
 
 ## Class 4
 
-#### Reading/Watching
+#### Reading
 
 * [Fetching Website Data into Memory](https://developer.apple.com/documentation/foundation/url_loading_system/fetching_website_data_into_memory) (required)
 * [Introduction to Swift UI WWDC 2020](https://developer.apple.com/videos/play/wwdc2020/10119/) (recommended)
 * [Core Location](https://developer.apple.com/documentation/corelocation) | [Adding Location Services to Your App](https://developer.apple.com/documentation/corelocation/adding_location_services_to_your_app) (required)
 
-Core Location
+#### Topics
 
-Networking
+* Core Location
+* Networking
+* SwiftUI
+* Animation
 
-SwiftUI
-
-Animation
+#### Exercises
