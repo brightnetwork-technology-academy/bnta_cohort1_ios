@@ -111,7 +111,6 @@
 * Storyboard Segue
 * Swift Package Manager
 * Concurrency
-* Autolayout
 
 #### Exercises
 
@@ -123,15 +122,11 @@
 #### Reading
 
 * [Fetching Website Data into Memory](https://developer.apple.com/documentation/foundation/url_loading_system/fetching_website_data_into_memory) (required)
-* [Introduction to Swift UI WWDC 2020](https://developer.apple.com/videos/play/wwdc2020/10119/) (recommended)
 * [Core Location](https://developer.apple.com/documentation/corelocation) | [Adding Location Services to Your App](https://developer.apple.com/documentation/corelocation/adding_location_services_to_your_app) (required)
 
 #### Topics
 
 * GestureRecognizers
-
-* ARC
-
 * Core Location
 * Networking
 * Animation
