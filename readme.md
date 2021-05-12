@@ -116,7 +116,7 @@
 #### Exercises
 
 1. [Create a custom UITableViewCell](https://programmingwithswift.com/create-a-custom-uitableviewcell-with-swift/)
-2. [Staff Directory](StaffDirectory/readme.md)
+2. [Staff Directory](Staff/readme.md)
 
 ## Class 4
 
