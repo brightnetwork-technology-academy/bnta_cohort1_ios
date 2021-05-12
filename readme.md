@@ -101,15 +101,16 @@
 
 #### Reading
 
+* [Push segue from UITableViewCell to ViewController](https://www.tutorialspoint.com/push-segue-from-uitableviewcell-to-viewcontroller-in-swift)
+* [Swift Package Manager](https://swift.org/package-manager/) (Conceptual Overview only)
+* [Grand Central Dispatch](https://www.swiftbysundell.com/basics/grand-central-dispatch/)
+
 #### Topics
 
-* Swift Package Manager / Cocoapods
-
-* GestureRecognizers
-
-* ARC
+* More UITableViewControllers
+* Storyboard Segue
+* Swift Package Manager
 * Concurrency
-
 * Autolayout
 
 #### Exercises
@@ -127,9 +128,12 @@
 
 #### Topics
 
+* GestureRecognizers
+
+* ARC
+
 * Core Location
 * Networking
-* SwiftUI
 * Animation
 
 #### Exercises
