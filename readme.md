@@ -86,7 +86,6 @@
   * UIStackView
   * UITableView
   * UICollectionView
-  * Autolayout
 
 #### Exercises
 
@@ -109,10 +108,14 @@
 * GestureRecognizers
 
 * ARC
-
 * Concurrency
 
+* Autolayout
+
 #### Exercises
+
+1. [Create a custom UITableViewCell](https://programmingwithswift.com/create-a-custom-uitableviewcell-with-swift/)
+2. [Staff Directory](StaffDirectory/readme.md)
 
 ## Class 4
 
