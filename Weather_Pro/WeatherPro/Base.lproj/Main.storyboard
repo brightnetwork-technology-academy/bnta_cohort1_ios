@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ntt-vM-KsL">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map View Controller-->
+        <scene sceneID="goi-X4-zQg">
+            <objects>
+                <viewController id="sqe-sD-img" customClass="MapViewController" customModule="WeatherPro" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Olh-04-3Hv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="wqL-50-0Y7">
+                                <rect key="frame" x="0.0" y="88" width="414" height="733"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="NWD-ws-m9u" appends="YES" id="zUw-4e-vjM"/>
+                                </connections>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap anywhere for weather info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyM-py-hGJ">
+                                <rect key="frame" x="92.5" y="831" width="229" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qTa-Ri-Q5p"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="qTa-Ri-Q5p" firstAttribute="bottom" secondItem="oyM-py-hGJ" secondAttribute="bottom" constant="10" id="0mo-Xi-oui"/>
+                            <constraint firstItem="oyM-py-hGJ" firstAttribute="top" secondItem="wqL-50-0Y7" secondAttribute="bottom" constant="10" id="AeO-h8-v5W"/>
+                            <constraint firstItem="oyM-py-hGJ" firstAttribute="centerX" secondItem="qTa-Ri-Q5p" secondAttribute="centerX" id="CgW-pu-o1L"/>
+                            <constraint firstItem="qTa-Ri-Q5p" firstAttribute="trailing" secondItem="wqL-50-0Y7" secondAttribute="trailing" id="WrE-bP-uIE"/>
+                            <constraint firstItem="wqL-50-0Y7" firstAttribute="top" secondItem="qTa-Ri-Q5p" secondAttribute="top" id="lOk-KG-U2c"/>
+                            <constraint firstItem="wqL-50-0Y7" firstAttribute="leading" secondItem="qTa-Ri-Q5p" secondAttribute="leading" id="lmm-fR-oKk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="jzO-bc-o4b"/>
+                    <connections>
+                        <outlet property="mapView" destination="wqL-50-0Y7" id="MRH-s4-E5Z"/>
+                        <segue destination="HmI-o3-yzA" kind="show" identifier="detailSegue" id="fak-fo-Bp3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rfv-dJ-VZN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="NWD-ws-m9u">
+                    <connections>
+                        <action selector="handleMapTap:" destination="sqe-sD-img" id="yNs-ci-7i9"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-36.231884057971016" y="764.73214285714278"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="f0O-fM-F0y">
+            <objects>
+                <viewController id="HmI-o3-yzA" customClass="DetailViewController" customModule="WeatherPro" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="83H-eG-pIg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o9m-ti-7hj">
+                                <rect key="frame" x="186" y="464.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dgP-TQ-q1b"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="o9m-ti-7hj" firstAttribute="centerX" secondItem="dgP-TQ-q1b" secondAttribute="centerX" id="BbP-wh-Gpq"/>
+                            <constraint firstItem="o9m-ti-7hj" firstAttribute="centerY" secondItem="dgP-TQ-q1b" secondAttribute="centerY" id="FNd-iq-Ujr"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="mof-XR-g0E"/>
+                    <connections>
+                        <outlet property="detailLabel" destination="o9m-ti-7hj" id="Ez0-MF-q3W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GLh-7L-0dN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="976.81159420289862" y="764.73214285714278"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ZLE-ml-gh0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ntt-vM-KsL" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eGU-y8-973">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="sqe-sD-img" kind="relationship" relationship="rootViewController" id="9Np-mD-J6A"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GRU-wF-cZM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-946.37681159420299" y="764.73214285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

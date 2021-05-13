@@ -135,4 +135,4 @@
 
 #### Exercises
 
-* [WeatherPro](WeatherPro/readme.md)
+* [WeatherPro](Weather_Pro/readme.md)
