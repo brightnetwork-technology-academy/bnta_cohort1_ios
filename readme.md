@@ -130,6 +130,7 @@
 * GestureRecognizers
 * Core Location
 * Networking
+* Codable / Data Model Mapping
 * Animation
 
 #### Exercises
