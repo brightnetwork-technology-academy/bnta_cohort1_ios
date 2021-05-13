@@ -123,6 +123,7 @@
 
 * [Fetching Website Data into Memory](https://developer.apple.com/documentation/foundation/url_loading_system/fetching_website_data_into_memory) (required)
 * [Core Location](https://developer.apple.com/documentation/corelocation) | [Adding Location Services to Your App](https://developer.apple.com/documentation/corelocation/adding_location_services_to_your_app) (required)
+* [UIGestureRecognizer](https://developer.apple.com/documentation/uikit/uigesturerecognizer)
 
 #### Topics
 
@@ -132,3 +133,5 @@
 * Animation
 
 #### Exercises
+
+* [WeatherPro](WeatherPro/readme.md)
