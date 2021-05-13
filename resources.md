@@ -32,3 +32,12 @@
 * https://www.mikeash.com/pyblog/
 * https://www.swiftbysundell.com/
 
+### Tools
+
+* https://github.com/airbnb/lottie-ios
+* https://fastlane.tools/
+* https://www.sketch.com/
+* https://www.figma.com/
+* https://github.com/Alamofire/Alamofire
+* https://github.com/facebookarchive/xctool
+* https://github.com/MobileNativeFoundation/set-simulator-location
