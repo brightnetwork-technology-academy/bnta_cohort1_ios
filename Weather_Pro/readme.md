@@ -1,7 +1,6 @@
 # WeatherPro
 
-
-https://user-images.githubusercontent.com/3495711/118067784-3d880c00-b36f-11eb-8129-c8f25f821c78.mov
+![weather_pro](https://user-images.githubusercontent.com/3495711/118068061-b5563680-b36f-11eb-8ed5-e45982aa6436.gif)
 
 
 ### Product Requirements
